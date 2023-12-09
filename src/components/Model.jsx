@@ -106,7 +106,7 @@ const Model = () => {
   
       <h2>Agra Prices</h2>
 
-      <Line data={{ labels: ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7'], datasets: [{ data, label: 'Price', backgroundColor: 'rgba(255, 99, 132, 0.5)', borderColor: 'rgba(255, 99, 132, 1)', pointRadius: 5 }] }} options={options} />
+      <Line data={{ labels: ['08/12', '09/12', '10/12', '11/12', '12/12', '13/12', '14/12'], datasets: [{ data, label: 'Price', backgroundColor: 'rgba(255, 99, 132, 0.5)', borderColor: 'rgba(255, 99, 132, 1)', pointRadius: 5 }] }} options={options} />
     
     </div>
 
