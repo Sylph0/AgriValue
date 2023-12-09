@@ -1,7 +1,18 @@
 import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
-
+import CardDeal from "./CardDeal";
+import {Navbar, Footer} from '../components';
 const Billing = () => (
+<>
+<div className= "bg-primary w-full overflow-hidden">
+<div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.paddingX}`}>
+          <Navbar />
+        </div>
+        
+      </div>
+  <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+  <div className={`${styles.boxWidth}`}>
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
@@ -14,13 +25,10 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing
+      Competitive Advantage and  <br className="sm:block hidden" /> Price Optimization
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
-        aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
-        placerat.
+      With accurate crop price predictions, farmers can strategically time the sale of their crops when prices are expected to be at their highest. This optimization can lead to increased revenue and, consequently, higher profits.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
@@ -29,6 +37,12 @@ const Billing = () => (
       </div>
     </div>
   </section>
+  <CardDeal/>
+  <Footer />
+  </div>
+  </div>
+  </div>
+  </>
 );
 
 export default Billing;

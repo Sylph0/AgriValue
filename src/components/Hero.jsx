@@ -16,8 +16,8 @@ const Hero = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            The Next <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Generation</span>{" "}
+            SOW <br className="sm:block hidden" />{" "}
+            <span className="text-gradient">GROW</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
@@ -25,12 +25,10 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Payment Method.
+          VALUE
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+          Our team uses an advanced Machine Learning (ML) model to identify and predict trends in food crop production and prices. We examine annual, quarterly and monthly rates as well as other market fluctuations.
         </p>
       </div>
 

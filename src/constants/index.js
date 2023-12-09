@@ -17,29 +17,37 @@ export const navLinks = [
     id: "clients",
     title: "Clients",
   },
+  {
+    id: "weather",
+    title: "Weather",
+  },
+  {
+    id: "model",
+    title: "Model",
+  },
 ];
 
 export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Improved Decision-Making",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Accurate crop price predictions help farmers make informed decisions about what to plant, when to harvest, and when to sell their crops.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Risk Mitigation",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Use of predictions to manage risk by diversifying their crop selection based on price forecasts, reducing their vulnerability to market fluctuations.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Increased Profitability",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      " Strategically time their crop sales, potentially selling at higher prices, thereby increasing profitability.",
   },
 ];
 
@@ -47,24 +55,32 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
+      "Agrivalue is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+    name: "Varun Handu",
     title: "Founder & Leader",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
+      "Agrivalue makes your life easier. If you're lucky to have it, you're lucky.",
+    name: "Vaibhav Mogha",
     title: "Founder & Leader",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
+      "It is now the people in the farming business, agriculture, and crop trade that will be really rich.",
+    name: "Vaibhav Soni",
+    title: "Founder & Leader",
+    img: people03,
+  },
+  {
+    id: "feedback-4",
+    content:
+      "It is now the people in the farming business, agriculture, and crop trade that will be really rich.",
+    name: "Piyush Arora",
     title: "Founder & Leader",
     img: people03,
   },
@@ -73,18 +89,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
+    title: "Active Users",
     value: "3800+",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "30+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Predictions",
+    value: "30K+",
   },
 ];
 
@@ -180,7 +196,7 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: coinbase,
   },
   {
     id: "client-2",
@@ -192,6 +208,6 @@ export const clients = [
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: binance,
   },
 ];
